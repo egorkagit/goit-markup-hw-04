@@ -1,0 +1,31 @@
+.footer {
+   background-color: #2E2F42;
+   color: #F4F4FD;
+   padding: 100px 0;
+}
+
+.footer .logo {
+   color: white;
+   margin: 0px;
+}
+
+.footer .footer-content {
+   margin-top: 16px;
+   width: 264px;
+}
+
+.footer .container {
+   display: flex;
+}
+
+.social-footer {
+   margin-left: 120px;
+}
+
+.social-footer img {
+   width: 24px;
+}
+
+.social-footer .team-link {
+   margin-top: 16px;
+}
