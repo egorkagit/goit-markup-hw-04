@@ -29,3 +29,16 @@
 .social-footer .team-link {
    margin-top: 16px;
 }
+
+.social-main-text {
+   font-weight: 500;
+   color: #fff;
+}
+
+.social-footer .team-link {
+   gap: 16px;
+}
+
+.social-footer .team-link a:hover {
+   background-color: #31d0aa;
+}

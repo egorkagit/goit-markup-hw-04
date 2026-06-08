@@ -15,7 +15,7 @@
    color: #2E2F42;
 }
 
-.section-features ul {
+.section-features .features-content {
    display: flex;
    gap: 24px;
 }
@@ -24,11 +24,11 @@
    padding: 120px 0px;
 }
 
-.section-features ul li {
+.section-features .card-features {
    flex-basis: 264px;
 }
 
-.section-features ul li:first-child {
+.section-features .card-features:first-child {
    margin-left: 0;
 }
 
@@ -37,8 +37,7 @@
    justify-content: center;
    align-items: center;
    background-color: #F4F4FD;
-   flex-basis: 264px;
-   padding: 0 100px;
+   width: 264px;
    border: 1px solid #8E8F99;
    border-radius: 4px;
    height: 112px;
