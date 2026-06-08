@@ -35,10 +35,11 @@
 .features-ico {
    display: flex;
    justify-content: center;
-   align-self: center;
+   align-items: center;
    background-color: #F4F4FD;
    flex-basis: 264px;
-   padding: 24px 100px;
+   padding: 0 100px;
    border: 1px solid #8E8F99;
    border-radius: 4px;
+   height: 112px;
 }

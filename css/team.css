@@ -65,13 +65,19 @@
 .link-feuter {
    display: flex;
    justify-content: center;
-   align-self: center;
+   align-items: center;
    width: 40px;
    height: 40px;
-   border-radius: 100px;
+   border-radius: 50%;
    background-color: #4D5AE5;
+   transition: background-color 250ms ease;
 }
 
-.link-feuter img {
-   width: 16px;
+.team-card {
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.link-feuter:hover,
+.link-feuter:focus {
+   background-color: #404bbf;
 }
