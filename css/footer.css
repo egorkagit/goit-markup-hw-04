@@ -39,6 +39,7 @@
    gap: 16px;
 }
 
-.social-footer .team-link a:hover {
+.social-footer .team-link a:hover,
+.social-footer .team-link a:focus {
    background-color: #31d0aa;
 }
